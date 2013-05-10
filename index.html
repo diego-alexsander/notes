@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Anotações - HTML5 + CSS3 + Jquery</title>
+<link  href="css/foundation.css" rel="stylesheet" type="text/css">
+<link  href="css/css.css" rel="stylesheet" type="text/css">
+<link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+  <div class="mask"></div>
+  <div class="menu">
+    <nav>
+      <a id="add-notas" class="btn-add-notas" href="#" title="Adicionar nota">+</a>
+      <div class="tut-01">
+        <p>Clique e adicione uma nota.</p>
+      </div>
+      <a id="limpar" class="btn-apagar" href="#" title="Apagar todas as notas">X</a>
+      <div class="tut-03">
+        <p>Se preferir, pode apagar todas as notas.</p>
+      </div>
+      <a id="tutorial" class="btn-tuto" href="#" title="Como funciona?">?</a>
+    </nav>
+  </div>
+  <div class="conteudo">
+    <ul id="notas" class="notas">
+      <div class="tut-02">
+        <p>Dobble-click para editar a nota, ela salva sozinha ;)</p>
+      </div>
+      <!-- Notas geradas pelo js -->
+    </ul>
+  </div>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script src="js/foundation.joyride.js"></script>
+  <script src="js/notes.js"></script>
+</body>
+</html>
